@@ -1,0 +1,19 @@
+:root {
+  /* Neutras */
+  --cinza-escuro: #444444;
+  --cinza-medio: #B9B9B9;
+  --branco: #FFFFFF;
+
+  /* Primárias */
+  --coral: #EE6451;
+  --ocre: #C13724;
+
+  /* Secundárias */
+  --bege: #FFF5EB;
+  --bege-medio: #F5E6D6;
+
+  /* Terciárias */
+  --verde: #CBDA74;
+  --verde-medio: #A2B72B;
+  --verde-claro: #EFF2E1;
+}
