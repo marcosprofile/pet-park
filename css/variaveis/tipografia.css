@@ -1,0 +1,18 @@
+:root {
+  /* Familias */
+  --sigmar: 'Sigmar', sans-serif;
+  --poppins: 'Poppins', sans-serif;
+
+  /* Tamanhos de fonte */
+  --font-size-4xl: 4.5rem;
+  --font-size-3xl: 2.625rem;
+  --font-size-2xl: 2.438rem;
+  --font-size-xl: 1.938rem;
+  --font-size-lg: 1.563rem;
+  --font-size-md: 1.25rem;
+  --font-size-sm: 1rem;
+  --font-size-xs: .813rem;
+
+  /* Altura de linhas */
+  --line-height: 130%;
+}

@@ -1,13 +1,41 @@
+@import url('./variaveis/cores.css');
+@import url('./variaveis/tipografia.css');
+@import url('./variaveis/espacamentos.css');
 @import url('./cabecalho.css');
 @import url('./destaque.css');
 
+h1, h2, h3, h4, h5 {
+  font-family: var(--sigmar);
+  line-height: var(--line-height);
+}
+
+h1 {
+  font-size: var(--font-size-4xl);
+}
+
+h2 {
+  font-size: var(--font-size-3xl);
+}
+
+h3 {
+  font-size: var(--font-size-2xl);
+}
+
+h4 {
+  font-size: var(--font-size-xl);
+}
+
+h5 {
+  font-size: var(--font-size-lg);
+}
+
 body {
   font-family: var(--poppins);
-  color: var(--cinza-escuro);
+  color: var(--cor-neutra-dark);
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  background-color: var(--branco);
+  background-color: var(--cor-neutra-light);
 
   .container {
     width: 1200px;

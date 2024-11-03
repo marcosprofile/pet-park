@@ -1,0 +1,19 @@
+:root {
+  /* Primárias */
+  --cor-primaria-light: #EE6451;
+  --cor-primaria-dark: #C13724;
+  
+  /* Secundárias */
+  --cor-secundaria-light: #FFF5EB;
+  --cor-secundaria-dark: #F5E6D6;
+  
+  /* Terciárias */
+  --cor-terciaria-light: #EFF2E1;
+  --cor-terciaria-medio: #CBDA74;
+  --cor-terciaria-dark: #A2B72B;
+  
+  /* Neutras */
+  --cor-neutra-light: #FFFFFF;
+  --cor-neutra-medio: #B9B9B9;
+  --cor-neutra-dark: #444444;
+}

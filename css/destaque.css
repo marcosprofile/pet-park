@@ -2,8 +2,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 5rem 0;
-  background-color: var(--bege);
+  padding: var(--padding-5xl) 0;
+  background-color: var(--cor-secundaria-light);
 
   .banner {
     display: flex;
@@ -11,13 +11,13 @@
     justify-content: space-between;
 
     .destaque-titulo {
-      color: var(--coral);
-      font-size: var(--heading-1);
+      color: var(--cor-primaria-dark);
+      font-size: var(--font-size-4xl);
       font-family: var(--sigmar);
-      line-height: 130%;
+      line-height: var(--line-height);
 
       span {
-        color: var(--verde-medio);
+        color: var(--cor-terciaria-dark);
       }
     }
   }
