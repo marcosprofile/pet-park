@@ -34,16 +34,16 @@
       padding: var(--padding-md);
       flex-grow: 1;
 
-      > h3 {
+      >h3 {
         font-size: var(--font-size-xl);
       }
 
-      > p {
+      >p {
         text-align: center;
         height: 100%;
       }
 
-      > span {
+      >span {
         font-family: var(--sigmar);
         font-size: var(--font-size-2xl);
         color: var(--cor-primaria-light);

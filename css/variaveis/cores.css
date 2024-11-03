@@ -16,4 +16,8 @@
   --cor-neutra-light: #FFFFFF;
   --cor-neutra-medio: #B9B9B9;
   --cor-neutra-dark: #444444;
+
+  /* Sombra */
+  --cor-primaria-box-shadow: rgba(193, 55, 36, .4);
+  --cor-secundaria-box-shadow: rgba(162, 183, 43, .4);
 }

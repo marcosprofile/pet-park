@@ -18,7 +18,7 @@
     justify-content: space-between;
     gap: var(--gap-md);
 
-    > li > .link {
+    >li>.link {
       position: relative;
       background-color: var(--cor-secundaria-light);
       text-decoration: none;
@@ -43,27 +43,27 @@
       transition: transform .3s ease, left .3s ease;
     }
 
-    .banho-e-tosa > .link::before {
+    .banho-e-tosa>.link::before {
       background-image: url('../assets/icones/banho-e-tosa.png');
     }
 
-    .hospedagem > .link::before {
+    .hospedagem>.link::before {
       background-image: url('../assets/icones/hospedagem.png');
     }
 
-    .veterinario > .link::before {
+    .veterinario>.link::before {
       background-image: url('../assets/icones/veterinario.png');
     }
 
-    .adestramento > .link::before {
+    .adestramento>.link::before {
       background-image: url('../assets/icones/adestramento.png');
     }
 
-    .petsiter > .link::before {
+    .petsiter>.link::before {
       background-image: url('../assets/icones/petsiter.png');
     }
 
-    > li > .link:hover {
+    >li>.link:hover {
       transform: scale(1.05);
       transition: transform .3s ease-in;
       padding-left: 3.2rem;

@@ -19,7 +19,7 @@
       display: flex;
       gap: var(--gap-md);
       overflow: hidden;
-  
+
       .carrossel-item {
         display: flex;
         flex-direction: column;
@@ -29,7 +29,7 @@
         border-radius: 1rem;
         text-align: center;
         gap: var(--gap-md);
-  
+
         .carrossel-nome,
         .carrossel-preco {
           font-family: var(--poppins);
