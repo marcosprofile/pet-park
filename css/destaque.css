@@ -12,9 +12,7 @@
 
     .destaque-titulo {
       color: var(--cor-primaria-dark);
-      font-size: var(--font-size-4xl);
       font-family: var(--sigmar);
-      line-height: var(--line-height);
 
       span {
         color: var(--cor-terciaria-dark);
