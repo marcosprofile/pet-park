@@ -8,17 +8,38 @@
   width: 100%;
   padding: var(--padding-5xl) 0;
 
+  @media (max-width: 600px) {
+    width: 100%;
+    padding: var(--padding-xl) 0;
+    box-sizing: border-box;
+  }
+
   .ofertas-titulo {
     color: var(--cor-primaria-light);
+
+    @media (max-width: 600px) {
+      padding: 0 var(--padding-lg);
+    }
   }
 
   .container {
     position: relative;
 
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+
     .carrossel {
       display: flex;
       gap: var(--gap-md);
       overflow: hidden;
+
+      @media (max-width: 600px) {
+        width: 100%;
+        overflow: auto;
+        box-sizing: border-box;
+        padding: 0 var(--padding-lg);
+      }
 
       .carrossel-item {
         display: flex;
@@ -48,6 +69,10 @@
       justify-content: space-between;
       top: 45%;
       margin-left: -2%;
+
+      @media (max-width: 600px) {
+        display: none;
+      }
 
       .carrossel-nav {
         border: none;

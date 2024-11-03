@@ -7,8 +7,18 @@
   width: 100%;
   padding: var(--padding-5xl) 0;
 
+  @media (max-width: 600px) {
+    padding: var(--padding-xl) var(--padding-lg);
+    gap: calc(var(--gap-2xl) + .5rem);
+    box-sizing: border-box;
+  }
+
   .servicos-titulo {
     color: var(--cor-primaria-light);
+
+    @media (max-width: 600px) {
+      text-align: center;
+    }
   }
 
   .servicos-lista {
@@ -17,6 +27,17 @@
     align-items: center;
     justify-content: space-between;
     gap: var(--gap-md);
+
+    @media (max-width: 769px ) {
+      height: 200px;
+      justify-content: center;
+    }
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+      height: auto;
+      gap: calc(var(--gap-2xl) + .5rem);
+    }
 
     >li>.link {
       position: relative;

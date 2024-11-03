@@ -8,8 +8,17 @@
   padding: var(--padding-5xl) 0;
   background-color: var(--cor-neutra-light);
 
+  @media (max-width: 600px) {
+    padding: var(--padding-xl) var(--padding-lg);
+    box-sizing: border-box;
+  }
+
   .parceiros-titulo {
     color: var(--cor-primaria-light);
+
+    @media (max-width: 600px) {
+      text-align: center;
+    }
   }
 
   .lista-parceiros {
@@ -17,6 +26,14 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: var(--gap-3xl);
+
+    @media (max-width: 769px) {
+      gap: var(--gap-2xl);
+    }
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
 
     >div>img {
       max-width: 100%;
@@ -34,7 +51,7 @@
         transform: scale(1.1);
         box-shadow: 0 0 20px var(--cor-primaria-box-shadow);
       }
-      
+
       &:nth-child(even):hover img {
         transform: scale(1.1);
         box-shadow: 0 0 20px var(--cor-secundaria-box-shadow);

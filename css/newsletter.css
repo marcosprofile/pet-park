@@ -8,12 +8,26 @@
   width: 100%;
   background-color: var(--cor-secundaria-light);
 
+  @media (max-width: 600px) {
+    padding: var(--padding-xl) var(--padding-lg);
+    box-sizing: border-box;
+  }
+
   h2 {
     color: var(--cor-primaria-light);
+
+    @media (max-width: 600px) {
+      text-align: center;
+    }
   }
 
   p {
     font-size: var(--font-size-md);
+
+    @media (max-width: 600px) {
+      text-align: center;
+      line-height: var(--line-height);
+    }
   }
 
   .formulario {
@@ -55,12 +69,23 @@
       gap: var(--gap-sm);
       flex-wrap: wrap;
 
+      @media (max-width: 600px) {
+        span:first-child {
+          width: 100%;
+          margin: 1rem 0;
+        }
+      }
+
       .opcao {
         display: flex;
         align-items: center;
         cursor: pointer;
         position: relative;
         padding-left: var(--padding-xl);
+
+        @media (max-width: 600px) {
+          margin: .25rem;
+        }
       }
 
       .opcao input[type="checkbox"] {

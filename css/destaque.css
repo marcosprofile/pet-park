@@ -5,17 +5,40 @@
   padding: var(--padding-5xl) 0;
   background-color: var(--cor-secundaria-light);
 
+  @media (max-width: 769px) {
+    padding: var(--padding-2xl) var(--padding-3xl);
+  }
+
   .banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
 
+    @media (max-width: 769px) {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    @media (max-width: 600px) {
+      width: 100%;
+    }
+
     .destaque-titulo {
       color: var(--cor-primaria-dark);
       font-family: var(--sigmar);
 
+      @media (max-width: 600px) {
+        font-size: var(--font-size-2xl);
+      }
+
       span {
         color: var(--cor-terciaria-dark);
+      }
+    }
+
+    img {
+      @media (max-width: 600px) {
+        width: 100%;
       }
     }
   }

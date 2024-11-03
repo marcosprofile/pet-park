@@ -9,11 +9,23 @@
   z-index: 2;
   box-shadow: 0 0 12px rgb(0, 0, 0, .08);
 
+  @media (max-width: 600px) {
+    padding: 0 var(--padding-md);
+    box-sizing: border-box;
+  }
+
   .alinhamento-cabecalho {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: var(--padding-md) 0;
+
+    @media (max-width: 600px) {
+      flex-direction: column;
+      gap: var(--gap-lg);
+      width: 100%;
+      box-sizing: border-box;
+    }
 
     .label-busca {
       display: flex;
@@ -24,6 +36,11 @@
       padding: var(--padding-sm) var(--padding-md);
       border-radius: 2rem;
       gap: var(--gap-md);
+
+      @media (max-width: 600px) {
+        width: 100%;
+        box-sizing: border-box;
+      }
 
       input {
         border: none;
@@ -55,12 +72,20 @@
       gap: var(--gap-sm);
       font-size: var(--font-size-md);
       cursor: pointer;
+
+      @media (max-width: 600px) {
+        display: none;
+      }
     }
   }
 
   .navegacao {
     align-content: center;
     padding: var(--padding-md) 0;
+
+    @media (max-width: 600px) {
+      display: none;
+    }
 
     .menu-lista {
       display: flex;
