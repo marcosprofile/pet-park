@@ -3,6 +3,7 @@
 @import url('./variaveis/espacamentos.css');
 @import url('./cabecalho.css');
 @import url('./destaque.css');
+@import url('./servicos.css');
 
 h1, h2, h3, h4, h5 {
   font-family: var(--sigmar);
