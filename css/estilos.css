@@ -8,6 +8,7 @@
 @import url('./ofertas.css');
 @import url('./parceiros.css');
 @import url('./newsletter.css');
+@import url('./rodape.css');
 
 h1, h2, h3, h4, h5 {
   font-family: var(--sigmar);
