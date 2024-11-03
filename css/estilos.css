@@ -5,6 +5,7 @@
 @import url('./destaque.css');
 @import url('./servicos.css');
 @import url('./planos.css');
+@import url('./ofertas.css');
 
 h1, h2, h3, h4, h5 {
   font-family: var(--sigmar);
